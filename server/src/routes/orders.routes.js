@@ -4,6 +4,7 @@ import {
   getOrdersCtrl,
 } from "../controllers/order.controller.js";
 import { applyValidations } from "../validations/apply.validations.js";
+import { deleteOrderById, getOrderById } from "../models/order.model.js";
 
 const ordersRouter = Router();
 
@@ -12,5 +13,9 @@ ordersRouter.get("/", getOrdersCtrl);
 
 // ! FALTAN VALIDACIONES DE DATOS
 ordersRouter.post("/", createOrderCtrl, applyValidations, createOrderCtrl);
+
+ordersRouter.delete("/", applyValidations, deleteOrderById);
+
+ordersRouter.get("/", applyValidations, getOrderById);
 
 export { ordersRouter };
