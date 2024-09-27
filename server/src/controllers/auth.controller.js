@@ -35,6 +35,7 @@ export const signUpCtrl = async (req, res) => {
 export const signOutCtrl = (_req, res) => {
   try {
     // ! Completar la función signOutCtrl
+    req.session.destroy;
     res.status(200).json({ message: "Sign out success" });
   } catch (error) {
     res.status(500).json({ message: error.message });
