@@ -37,8 +37,8 @@
 - [ ] (5 puntos) Implementar controlador de registro de usuarios.
 - [ ] (5 puntos) Implementar controlador de cierre de sesión de usuarios.
 - [ ] (5 puntos) Implementar ruta de cierre de sesión de usuarios.
-- [ ] (5 puntos) Implementar validaciones de datos para las peticiones de las ordenes
-- [ ] (5 puntos) Implementar validación de jwt en las rutas de las ordenes.
+- [x ] (5 puntos) Implementar validaciones de datos para las peticiones de las ordenes
+- [x ] (5 puntos) Implementar validación de jwt en las rutas de las ordenes.
 - [ ] (5 puntos) Implementar controladores y rutas para las funciones de los `models` que no hayan sido implementadas.
 
 (30 puntos totales)
